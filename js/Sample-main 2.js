@@ -1,18 +1,15 @@
-// ASD 1209 Week 1
-// Anthony Torrez
-
 $('#home').on('pageinit', function(){
 	//code needed for home page goes here
 });	
 		
 $('#addItem').on('pageinit', function(){
 
-		var rbform = $('#recordbooksform');
+		var myForm = $('#formId');
 		    myForm.validate({
 			invalidHandler: function(form, validator) {
 			},
 			submitHandler: function() {
-		var data = rbform.serializeArray();
+		var data = myForm.serializeArray();
 			storeData(data);
 		}
 	});
