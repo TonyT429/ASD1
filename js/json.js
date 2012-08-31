@@ -2,8 +2,7 @@
 // Project 
 // Anthony Torrez
 
-var json = {
-	"book1": {
+({
 		"genre": ["Genre:", "Sci Fi & Fantasy"],
 		"btitle": ["Book Title:", "Burned"],
 		"author": ["Author:", "J.F. Lewis"],
@@ -13,8 +12,8 @@ var json = {
 		"seriesname": ["Series Name:", "Void City"],
 		"seriesnum": ["Series Number:", "4"],
 		"date": ["Date:", "3-20-2011"]
-	},
-	"book2": {
+},
+{
 		"genre": ["Genre:", "Computers & Technology"],
 		"btitle": ["Book Title:", "Javascript Cookbook"],
 		"author": ["Author:", "Shelley Powers"],
@@ -24,7 +23,7 @@ var json = {
 		"seriesname": ["Series Name:", ""],
 		"seriesnum": ["Series Number:", ""],
 		"date": ["Date:", "1-10-2011"]
-	},
+},
 	"book3": {
 		"genre": ["Genre:", "Computers & Technology"],
 		"btitle": ["Book Title:", "JavaScript in Easy Steps"],
@@ -608,7 +607,7 @@ var json = {
 		"seriesnum": ["Series Number:", "5"],
 		"date": ["Date:", "2007-03-27"]
 	},
-	"book56": {
+{
 		"genre": ["Genre:", "Western"],
 		"btitle": ["Book Title:", "The Darkest Kiss"],
 		"author": ["Author:", "Keri Arthur"],
@@ -618,6 +617,6 @@ var json = {
 		"seriesname": ["Series Name:", "Riley Jenson Guardian"],
 		"seriesnum": ["Series Number:", "6"],
 		"date": ["Date:", "2008-05-23"]
-	}
+}
 }
 
