@@ -6,7 +6,7 @@ $('#home').on('pageinit', function(){
 });	
 		
 $('#addItem').on('pageinit', function(){
-/*
+
 	var rbform = $('#recordbooksform'),
 		rberrorslink = $('#rberrorslink')
 	;
@@ -39,7 +39,7 @@ $('#addItem').on('pageinit', function(){
 		}
 	});
 
-*/	
+
 	//any other code needed for addItem page goes here
 	
 	
