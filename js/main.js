@@ -11,9 +11,13 @@ $('#addItem').on('pageinit', function(){
 		rberrorslink = $('#rberrorslink')
 	;
 	
+	var parseBookform = function(data){
+		console.log(data);
+	};
+	
 	rbform.validate({
 		invalidHandler: function(form, validator){
-			rberrorslink.click();
+			rberrorslink.bind();
 			var html = '';
 			for(var key in validator.submitted){
 				var label = $('label[for^="'+ key +'"]').not('[generated]');  // error with a label except those generated.
@@ -33,7 +37,7 @@ $('#addItem').on('pageinit', function(){
 				book.isaseries = ["Is Part of a Series:", $("isaseries").val()];
 				book.seriesname = ["Series Name:", $("seriesname").val()];
 				book.ibookrate = ["Rating:", $("bookrate").val()];
-			rbform.serializeArray();
+			var data = rbform.serializeArray();
 			localStorage.setItem('rbform', data);
 			parseBookform(data);
 		}
@@ -46,7 +50,7 @@ $('#addItem').on('pageinit', function(){
 });;
 
 //The functions below can go inside or outside the pageinit function for the page in which it is needed.
-
+/*
 $(function() {
 	var i=Number(localStorage.getItem('book-counter')) + 1,
 	j = 0,
@@ -78,7 +82,7 @@ $(function() {
 	});
 	
 // Remove book
-	$bookList.delegate('a', 'click', function(e) {
+	$bookList.delegate('a', 'bind', function(e) {
 		var $this = $(this);
 		
 		e.preventDefault();
@@ -104,7 +108,7 @@ $(function() {
 	});
 	
 // Clear all
-	$clearAll.click(function(e) {
+	$clearAll.bind(function(e) {
 		e.preventDefault();
 		$.publish('/clear-all/', []);
 	});
@@ -170,7 +174,7 @@ $.subscribe('/regenerate-list/', function() {
 
 	
 
-/*
+
 var autofillData = function (){
 	 
 };
