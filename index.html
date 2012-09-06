@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8"/>
 	
-	<title>Gold Index</title>
+	<title>ASD BookTracker</title>
 	
 	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="HandheldFriendly" content="True"/>
@@ -15,7 +15,7 @@
 	<meta http-equiv="cleartype" content="on"/>
 	
 	<!-- StyleSheets under here -->
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />
     <link rel="stylesheet" type="text/css" href="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.min.css" /> <link rel="stylesheet" type="text/css" href="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.min.css" />
 	<link rel="stylesheet" href="css/themes/myNewTheme.min.css" />
@@ -44,8 +44,9 @@
 			
 		<div data-role="content" >
 			<img src="images/CTAImage.png" alt="Logo" height="200" width="290" />
-			<p><a href="#recordbooks" data-role="button"  data-mini="true" data-theme="a" data-icon="arrow-r" data-iconpos="right" data-ajax="false">Add a Book Now</a></p>
+			<p><a href="#addItem" data-role="button"  data-mini="true" data-theme="a" data-icon="arrow-r" data-iconpos="right" data-ajax="false">Add a Book Now</a></p>
 			<p></p>
+			<p><a href="#serialization" data-role="button"  data-mini="true" data-theme="a" data-icon="arrow-r" data-iconpos="right" data-ajax="false">Go to Data Serialization</a></p>
 <!--
 			<p><a href="../Bronze/index.html" data-role="button"  data-mini="true" data-theme="a" data-icon="arrow-r" data-iconpos="right"  value="Test" id="test" data-ajax="false">Go to Bronze Page</a></p>	
 -->
@@ -53,13 +54,14 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button"  data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button"  data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button"  data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button"  data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button"  data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div><!--Close Navbar-->
 		</div><!--Close Footer-->
-	</div><!--Close Home-->
+	</div>
+<!--Close Home-->
 	
 <!-- Under Construction Page -->
 	<div data-role="page" id="underConst">
@@ -82,8 +84,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -231,8 +233,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -302,8 +304,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -373,8 +375,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -543,8 +545,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -571,8 +573,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -581,7 +583,7 @@
 <!-- close RSSFeed -->
 
 <!-- RecordBooksForm -->
-	<div data-role="page" id="recordbooks">
+	<div data-role="page" id="addItem">
 		<div data-role="header"  data-position="fixed">
 			<div>
 				<a href="#home" alt="home" data-inline="true" data-ajax="false">
@@ -600,7 +602,7 @@
 			          <a href="#" id="clearLink" data-inline="true" data-role="button" data-mini="true" data-icon="alert" data-iconpos="right" data-theme="c" data-ajax="false">Clear</a>		
 			</div><!--Close block-B-->
 			</div> <!--Close Grid-a -->
-			<form action="" method="post" id="recordbooksform" >
+			<form action="#" id="recordbooksform" > <!-- removed method="post" -->
 	<!-- Input Title -->
 				<div>
 					<label for="btitle">Book Title:</label>
@@ -609,7 +611,7 @@
 	<!-- Input Author-->
 				<div>
 					<label for="author">Author's Name:</label>
-					<input type="text" placeholder="Please Enter the Author's name"data-mini="true" name="author" id="author" class="required" />
+					<input type="text" placeholder="Please Enter the Author's name" data-mini="true" name="author" id="author" class="required" />
 				</div>
 	<!-- Input ISBN -->
 				<div>
@@ -704,8 +706,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -749,8 +751,8 @@
 		<div data-role="footer" data-position="fixed" data-id="home">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" id="search" data-ajax="false">Search</a></li>
-					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" id="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
 					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
 				</ul>
 			</div>
@@ -758,6 +760,36 @@
 	</div>
 <!-- close Browse -->
 
+<!-- Data Serialization -->
+	<div data-role="page" id="serialization">
+		<div data-role="header"  data-position="fixed">
+			<div>
+				<a href="#home" alt="home" data-inline="true" data-ajax="false">
+					<img src="images/BookTrackerLogo.png" height="60" width="160" data-inline="true" />
+				</a>	
+				<label data-inline="true">Browse</label>
+			</div>
+		</div>
+		
+		<div data-role="content">
+			<div data-role="fieldcontain">
+				<a href="#json" data-role="button" id="jsonBooks" data-theme="a" data-mini="true" data-icon="arrow-r" data-iconpos="right"  data-ajax="false">JSON Data Serialization</a>
+				<a href="#xml" data-role="button" id="xmlBooks" data-theme="a" data-mini="true" data-icon="arrow-r" data-iconpos="right"  data-ajax="false">XML Data Serialization</a>
+				<a href="#yaml" data-role="button" id="yamlBooks" data-theme="a" data-mini="true" data-icon="arrow-r" data-iconpos="right"  data-ajax="false">YAML Data Serialization</a>
+			</div>	
+		</div>	
+		
+		<div data-role="footer" data-position="fixed" data-id="home">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- close Browse -->
 
 <!-- The Library -->
 	<div data-role="page" id="myLibrary">
@@ -770,32 +802,42 @@
 			</div>
 		</div>
 		
-		<div data-role="content">
- 			<ul id="theLibrary">
-        		//	<li>Loading&hellip;</li>
-    			</ul>
-    		</div>
-    		<button type="button" id="clearLog">Clear Log</button>
-
-	<div data-role="dialog" id="recordbookserrors" >
-		<div data-role="header" data-position="fixed">
-			<h1>Fields Missing</h1>
-		</div>
+		<div data-role="content" >
+			<div id="contain">
+				<div class="books">
+					<h3>Format the example</h3>
+						<p>Title</p>
+						<p>Author</p>
+						<p>Genre</p>
+						<p>ISBN</p>
+						<p>Comments</p>
+						<p>Series</p>
+						<p>Series-Name</p>
+						<p>Series-Number</p>
+						<p>Date</p>
 		
-		<div data-role="content">
-			<ul>
-				<li>Test</li>
-			</ul>
+ 			<ul id="theLibrary" data-role="listview" > 
+ 				<div id="contain"></div>
+ 			</ul>
+    		</div>
+    		
+    		<div data-role="footer" data-position="fixed" data-id="home">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#search" data-role="button" data-mini="true" data-iconpos="right"  value="search" class="search" data-ajax="false">Search</a></li>
+					<li><a href="#browse" data-role="button" data-mini="true" data-iconpos="right"  value="browse" class="browse" data-ajax="false">Browse</a></li>
+					<li><a href="#newsfeed" data-role="button" data-mini="true" data-iconpos="right"  data-ajax="false">RSS Feed</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
+ 
 <!-- close The Library -->
-
-
 
 
 	<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
-	<script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
   
      <script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.core.min.js"></script>
      <script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.mode.calbox.min.js"></script>
@@ -805,7 +847,7 @@
 	<script type="text/javascript" src="js/libs/pubsub.js"></script>
 	<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
 <!--	<script type="text/javascript" src="js/json.js"></script> -->
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/MIUmain.js"></script>
 <!--	<script type="text/javascript" src="js/test2.js"></script> -->
 	
 	

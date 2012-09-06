@@ -17,7 +17,7 @@ $('#addItem').on('pageinit', function(){
 	
 	rbform.validate({
 		invalidHandler: function(form, validator){
-			rberrorslink.bind();
+		//	rberrorslink.bind();
 			var html = '';
 			for(var key in validator.submitted){
 				var label = $('label[for^="'+ key +'"]').not('[generated]');  // error with a label except those generated.
@@ -47,20 +47,20 @@ $('#addItem').on('pageinit', function(){
 	//any other code needed for addItem page goes here
 	
 	
-});;
+
 
 //The functions below can go inside or outside the pageinit function for the page in which it is needed.
-/*
-$(function() {
+//   This was an attempt to see redo my script
+
 	var i=Number(localStorage.getItem('book-counter')) + 1,
 	j = 0,
 	k,
-	$form = $('recordbooksform'),
-	$removeLink = $('#showBooks li a'),
-	$bookList = $('#showBooks'),
-	$editable = $('.editable'),
-	$clearAll = $('#clear-all'),
-	$newBook = $('#book'),
+	form = $('recordbooksform'),
+	removeLink = $('#showBooks li a'),
+	bookList = $('#showBooks'),
+	editable = $('.editable'),
+	clearAll = $('#clear-all'),
+	newBook = $('#book'),
 	order = [],
 	orderList;
 	
@@ -70,19 +70,19 @@ $(function() {
 	orderList = orderList ? orderList.split(',') : [];
 	
 	for ( j = 0, k = orderList.length; j < k; j++) {
-		$bookList.append(
+		bookList.append(
 			"<li id='" + orderList[j] +"'>" + "<span class='editable'>" + localStorage.getItem(orderList[j]) + "</span> <a href='#'>X</a></li>"
 		);
 	}
 
 // Add book
-	$form.submit(function(e) {
+	form.submit(function(e) {
 		e.publishDefault();
 		$.publish('/add/', []);
 	});
 	
 // Remove book
-	$bookList.delegate('a', 'bind', function(e) {
+	bookList.delegate('a', 'bind', function(e) {
 		var $this = $(this);
 		
 		e.preventDefault();
@@ -90,7 +90,7 @@ $(function() {
 	});
 	
 // Sort book
-	$bookList.sortable({
+	bookList.sortable({
 		revert: true,
 		stop: function() {
 			$.publish('/regenerate-list/', []);
@@ -98,7 +98,7 @@ $(function() {
 	});
 	
 // Edit and save book
-	$editable.inlineEdit({
+	editable.inlineEdit({
 		save: function(e, data) {
 			var $this = $(this);
 			localStorage.setItem(
@@ -108,10 +108,11 @@ $(function() {
 	});
 	
 // Clear all
-	$clearAll.bind(function(e) {
+	clearAll.bind(function(e) {
 		e.preventDefault();
 		$.publish('/clear-all/', []);
 	});
+});
 	
 // Subscribes
 	$.subscribe('/add/', function() {
@@ -124,7 +125,7 @@ $(function() {
 	localStorage.setItem('book-counter', i);
 	
 // Append the new book with the value of the new book list
-	$bookList.append(
+	bookList.append(
 		"<li id='book-'" + i + ">" + "<span class='editable'>" + localStorage.getItem("book-" + i) + " </span><a href='#'>x</a></li>"
 	);	
 	
@@ -165,11 +166,11 @@ $.subscribe('/regenerate-list/', function() {
 });
 
 	$.subscribe('/clear-all/', function() {
-		var $bookListLi = $('#showBooks li');
+		var bookListLi = $('#showBooks li');
 	
 		order.length = 0;
 		localStorage.clear();
-		$bookListLi.remove();
+		bookListLi.remove();
 	});
 
 	
@@ -180,7 +181,7 @@ var autofillData = function (){
 };
 
 var getData = function(){
-	var i = 
+
 };
 
 var storeData = function(data){
@@ -191,14 +192,13 @@ var storeData = function(data){
 		
 	}
 		
-	);
 }; 
 
 var	deleteItem = function (){
 			
 };
 
-*/		
+	
 
 
 
