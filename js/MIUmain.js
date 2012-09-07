@@ -47,33 +47,37 @@ $('#serial').on('pageinit', function(){
 
 // Serialization of JSON Data
 	$('#jsonBooks').on('click', function() {
-		$('#theLibrary').empty();
-    		$('#contain').empty();
-        	$.ajax({
-			url: 'data/json.data',
-            	type: 'GET',
-            	dataType: 'json',
-            	success: function(jdata) {
-                	for (var i=0, j=jdata.item.length; i<j; i++) {
-                    	var book = jdata.item[i];
+     	$('#theLibrary').empty();
+          $('#contain').empty();
+          $.ajax({
+          	url: 'data/json.data',
+               type: 'GET',
+               dataType: 'json',
+               success: function(jdata) {
+               	for (var i=0, j=jdata.item.length; i<j; i++){
+                        var book = jdata.item[i];
                     		$(""+
-                    			'<p>' + book.title + '</p>' +
-                    			'<p>' + book.author + '</p>' +
-                    			'<p>' + book.isbn + '</p>' +
-                    			'<p>' + book.genre + '</p>' +
-                    			'<p>' + book.comments + '</p>' +
-                    			'<p>' + book.series + '</p>' +
-                    			'<p>' + book.seriesname + '</p>' +
-                    			'<p>' + book.seriesnum + '</p>' +
-                    			'<p>' + book.date + '</p>' 
-                    		).appendTo('#contain');
-                    		console.log(jdata);
-                    		return false;
-                }
-            } 
-        });
-    });
+                                	'<p>' + book.genre + '</p>' +
+                                	'<p>' + book.title + '</p>' +
+                              	  '<p>' + book.author + '</p>' +
+                              	  '<p>' + book.isbn + '</p>' +
+                                    '<p>' + book.comments + '</p>' +
+                                    '<p>' + book.series + '</p>' +
+                                    '<p>' + book.seriesname + '</p>' +
+                                    '<p>' + book.seriesnum + '</p>' +
+                                    '<p>' + book.date + '</p>'
+                           	 ).appendTo('#contain');
+                        		console.log(jdata);
+                    }
+          	}
+          });
+          return false;
+     });
 
+                	
+                	
+
+/*
 // Serialization of XML Data
 	$('#jsonBooks').on('click', function() {
 		$('#theLibrary').empty();
@@ -93,26 +97,27 @@ $('#serial').on('pageinit', function(){
                 			var seriesName = $(this).find('seriesName').text();
                 			var seriesNum = $(this).find('seriesNum').text();
                 			var date = $(this).find('date').text();
+                			$('div class="
                     		).appendTo('#contain');
-                    		console.log(jdata);
+                    		console.log(xdata);
                     		return false;
                 }
             }
         });
     });
+*/
 
-
-// Serialization of YAML Data
+// Serialization of YAML Data   -  this may be completely off base - unsure how to use the parser commands to pull yaml data.
 	$('#jsonBooks').on('click', function() {
 		$('#theLibrary').empty();
     		$('#contain').empty();
         	$.ajax({
 			url: 'data/yml.data',
             	type: 'GET',
-            	dataType: "yaml',
-            	success: function(jdata) {
-                	for (var i=0, j=jdata.item.length; i<j; i++) {
-                    	var book = jdata.item[i];
+            	dataType: 'yaml',
+            	success: function(ydata) {
+                	for (var i=0, j=ydata.item.length; i<j; i++) {
+                    	var book = ydata.item[i];
                     		$(""+
                     			'<p>' + book.genre + '</p>' +
                     			'<p>' + book.title + '</p>' +
@@ -124,7 +129,7 @@ $('#serial').on('pageinit', function(){
                     			'<p>' + book.seriesnum + '</p>' +
                     			'<p>' + book.date + '</p>' 
                     		).appendTo('#contain');
-                    		console.log(jdata);
+                    		console.log(ydata);
                     		return false;
                 }
             }
