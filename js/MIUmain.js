@@ -47,7 +47,7 @@ $('#serial').on('pageinit', function(){
 
 // Serialization of JSON Data
 	$('#jsonBooks').on('click', function() {
-     	$('#theLibrary').empty();
+     	$('#theShelf').empty();
           $('#contain').empty();
           $.ajax({
           	url: 'data/json.data',
