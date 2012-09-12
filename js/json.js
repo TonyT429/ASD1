@@ -4,7 +4,7 @@
 
 ({
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Burned"],
+	"title": ["Book Title:", "Burned"],
 	"author": ["Author:", "J.F. Lewis"],
 	"isbn": ["ISBN:", "978-1-4516-5186-7"],
 	"comments": ["Comments:", "Cool"],
@@ -15,7 +15,7 @@
 },
 {
 	"genre": ["Genre:", "Computers & Technology"],
-	"btitle": ["Book Title:", "Javascript Cookbook"],
+	"title": ["Book Title:", "Javascript Cookbook"],
 	"author": ["Author:", "Shelley Powers"],
 	"isbn": ["ISBN:", "978-0-596-80613-2"],
 	"comments": ["Comments:", "Good"],
@@ -26,7 +26,7 @@
 },
 {
 	"genre": ["Genre:", "Computers & Technology"],
-	"btitle": ["Book Title:", "JavaScript in Easy Steps"],
+	"title": ["Book Title:", "JavaScript in Easy Steps"],
 	"author": ["Author:", "Mike McGrath"],
 	"isbn": ["ISBN:", "978-1-84078-362-9"],
 	"comments": ["Comments:", "Cool"],
@@ -37,7 +37,7 @@
 },
 {
 	"genre": ["Genre:", "Education & Reference"],
-	"btitle": ["Book Title:", "Rich Dad, Poor Dad"],
+	"title": ["Book Title:", "Rich Dad, Poor Dad"],
 	"author": ["Author:", "Robert T. Kiyosaki"],
 	"isbn": ["ISBN:", "0-446-67745-0"],
 	"comments": ["Comments:", "Insightful"],
@@ -48,7 +48,7 @@
 },
 {
 	"genre": ["Genre:", "Education & Reference"],
-	"btitle": ["Book Title:", "Dermo"],
+	"title": ["Book Title:", "Dermo"],
 	"author": ["Author:", "Edward Topol"],
 	"isbn": ["ISBN:", "0-452-2745-0"],
 	"comments": ["Comments:", "Excellent"],
@@ -59,7 +59,7 @@
 },
 {
 	"genre": ["Genre:", "Education & Reference"],
-	"btitle": ["Book Title:", "Becoming A Person Of Influence"],
+	"title": ["Book Title:", "Becoming A Person Of Influence"],
 	"author": ["Author:", "John C. Maxwell"],
 	"isbn": ["ISBN:", "0-7852-7100-7"],
 	"comments": ["Comments:", "Excellent"],
@@ -70,7 +70,7 @@
 },
 {
 	"genre": ["Genre:", "Education & Reference"],
-	"btitle": ["Book Title:", "The 21 irrefutable Laws of Leadership"],
+	"title": ["Book Title:", "The 21 irrefutable Laws of Leadership"],
 	"author": ["Author:", "John C. Maxwell"],
 	"isbn": ["ISBN:", "0-7852-7431-6"],
 	"comments": ["Comments:", "Interesting"],
@@ -81,7 +81,7 @@
 },
 {
 	"genre": ["Genre:", "Education & Reference"],
-	"btitle": ["Book Title:", "Easy Russian Phrasebook & Dictionary"],
+	"title": ["Book Title:", "Easy Russian Phrasebook & Dictionary"],
 	"author": ["Author:", "Ann Rolbin"],
 	"isbn": ["ISBN:", "0-8442-5279-2"],
 	"comments": ["Comments:", "Good"],
@@ -92,7 +92,7 @@
 },
 {
 	"genre": ["Genre:", "Computers & Technology"],
-	"btitle": ["Book Title:", "Designing Interfaces"],
+	"title": ["Book Title:", "Designing Interfaces"],
 	"author": ["Author:", "Jenifer Tidwell"],
 	"isbn": ["ISBN:", "978-1-449-37970-4"],
 	"comments": ["Comments:", "Cool"],
@@ -103,7 +103,7 @@
 },
 {
 	"genre": ["Genre:", "Cookbooks, Food & Wine"],
-	"btitle": ["Book Title:", "The Best From The Bottle"],
+	"title": ["Book Title:", "The Best From The Bottle"],
 	"author": ["Author:", "Mark Schneider"],
 	"isbn": ["ISBN:", "0-8256-3157-2"],
 	"comments": ["Comments:", "Intoxicating"],
@@ -114,7 +114,7 @@
 },
 {
 	"genre": ["Genre:", "Medical"],
-	"btitle": ["Book Title:", "The 8-Week Cholesterol Cure"],
+	"title": ["Book Title:", "The 8-Week Cholesterol Cure"],
 	"author": ["Author:", "Robert E. Kowalski"],
 	"isbn": ["ISBN:", "0-06-015613-9"],
 	"comments": ["Comments:", "It works!  Surprised the hell out of my doctor!"],
@@ -125,7 +125,7 @@
 },
 {
 	"genre": ["Genre:", "Self Help"],
-	"btitle": ["Book Title:", "Awaken The Giant Within"],
+	"title": ["Book Title:", "Awaken The Giant Within"],
 	"author": ["Author:", "Anthony Robbins"],
 	"isbn": ["ISBN:", "0-671-79154-0"],
 	"comments": ["Comments:", "Cool"],
@@ -136,7 +136,7 @@
 },
 {
 	"genre": ["Genre:", "Medical"],
-	"btitle": ["Book Title:", "Get Control of Your Blood Sugar"],
+	"title": ["Book Title:", "Get Control of Your Blood Sugar"],
 	"author": ["Author:", "Gary Scheiner, M.S., C.D.E."],
 	"isbn": ["ISBN:", "978-1-4127-4626-7"],
 	"comments": ["Comments:", "Nice"],
@@ -147,7 +147,7 @@
 },
 {
  	"genre": ["Genre:", "Medical"],
-	"btitle": ["Book Title:", "The 30 Day Diabetes Cure"],
+	"title": ["Book Title:", "The 30 Day Diabetes Cure"],
 	"author": ["Author:", "Dr. Stefan Ripich ND, CNP"],
 	"isbn": ["ISBN:", "978-0-9844907-1-4"],
 	"comments": ["Comments:", "Good"],
@@ -158,7 +158,7 @@
 },
 {
 	"genre": ["Genre:", "Religion & Spirituality"],
-	"btitle": ["Book Title:", "New Testament"],
+	"title": ["Book Title:", "New Testament"],
 	"author": ["Author:", "Most Rev. Donald E. Pilarczyk"],
 	"isbn": ["ISBN:", "158516165-9"],
 	"comments": ["Comments:", "Rev. Pilarczyk was the one who did the English translation"],
@@ -169,7 +169,7 @@
 },
 {
 	"genre": ["Genre:", "Medical"],
-	"btitle": ["Book Title:", "Low Cost Natural Cures for Your Dog and Cat"],
+	"title": ["Book Title:", "Low Cost Natural Cures for Your Dog and Cat"],
 	"author": ["Author:", "Dr. John Heinerman"],
 	"isbn": ["ISBN:", "1-882330-91-9"],
 	"comments": ["Comments:", "Helpful"],
@@ -180,7 +180,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Kitty and the Silver Bullet"],
+	"title": ["Book Title:", "Kitty and the Silver Bullet"],
 	"author": ["Author:", "Carrie Vaughn"],
 	"isbn": ["ISBN:", "978-0-446-61875-5"],
 	"comments": ["Comments:", "Excellent Story"],
@@ -191,7 +191,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Kitty and the Midnight Hour"],
+	"title": ["Book Title:", "Kitty and the Midnight Hour"],
 	"author": ["Author:", "Carrie Vaughn"],
 	"isbn": ["ISBN:", "0-446-61641-9"],
 	"comments": ["Comments:", "Excellent"],
@@ -202,7 +202,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Kitty and the Dead Man's Hand"],
+	"title": ["Book Title:", "Kitty and the Dead Man's Hand"],
 	"author": ["Author:", "Carrie Vaughn"],
 	"isbn": ["ISBN:", "978-0-446-19953-7"],
 	"comments": ["Comments:", "Entertaining"],
@@ -213,7 +213,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Kitty Goes to Washington"],
+	"title": ["Book Title:", "Kitty Goes to Washington"],
 	"author": ["Author:", "Carrie Vaughn"],
 	"isbn": ["ISBN:", "0-446-61642-7"],
 	"comments": ["Comments:", "Good"],
@@ -224,7 +224,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Kitty Takes a Holiday"],
+	"title": ["Book Title:", "Kitty Takes a Holiday"],
 	"author": ["Author:", "Carrie Vaughn"],
 	"isbn": ["ISBN:", "978-0-446-61874-8"],
 	"comments": ["Comments:", "Nice"],
@@ -235,7 +235,7 @@
 },
 {
 	"genre": ["Genre:", "Medical"],
-	"btitle": ["Book Title:", "Reversing Diabetes"],
+	"title": ["Book Title:", "Reversing Diabetes"],
 	"author": ["Author:", "Julian Whitaker, M.D."],
 	"isbn": ["ISBN:", "0-446-67658-6"],
 	"comments": ["Comments:", "Helpful"],
@@ -246,7 +246,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Embraced by Darkness"],
+	"title": ["Book Title:", "Embraced by Darkness"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58961-0"],
 	"comments": ["Comments:", "Good"],
@@ -257,7 +257,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Kissing Sin"],
+	"title": ["Book Title:", "Kissing Sin"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58348-0"],
 	"comments": ["Comments:", "Cool"],
@@ -268,7 +268,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Full Moon Rising"],
+	"title": ["Book Title:", "Full Moon Rising"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58845-3"],
 	"comments": ["Comments:", "Good"],
@@ -279,7 +279,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Dangerous Games"],
+	"title": ["Book Title:", "Dangerous Games"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58959-7"],
 	"comments": ["Comments:", "Cool"],
@@ -290,7 +290,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "Tempting Evil"],
+	"title": ["Book Title:", "Tempting Evil"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58847-7"],
 	"comments": ["Comments:", "Good"],
@@ -301,7 +301,7 @@
 },
 {
 	"genre": ["Genre:", "Sci Fi & Fantasy"],
-	"btitle": ["Book Title:", "The Darkest Kiss"],
+	"title": ["Book Title:", "The Darkest Kiss"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-59114-9"],
 	"comments": ["Comments:", "Cool"],
@@ -312,7 +312,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Betty Zane"],
+	"title": ["Book Title:", "Betty Zane"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "2940012183767"],
 	"comments": ["Comments:", "Nice"],
@@ -323,7 +323,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Rustlers of Pecos County"],
+	"title": ["Book Title:", "The Rustlers of Pecos County"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "2940012184047"],
 	"comments": ["Comments:", "Good"],
@@ -334,7 +334,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Wildfire"],
+	"title": ["Book Title:", "Wildfire"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781420932461"],
 	"comments": ["Comments:", "Cool"],
@@ -345,7 +345,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Mysterious Rider"],
+	"title": ["Book Title:", "The Mysterious Rider"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781438533810"],
 	"comments": ["Comments:", "Interesting"],
@@ -356,7 +356,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Desert Gold"],
+	"title": ["Book Title:", "Desert Gold"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9780786022618"],
 	"comments": ["Comments:", "Excellent"],
@@ -367,7 +367,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Lone Star Ranger"],
+	"title": ["Book Title:", "The Lone Star Ranger"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781420932027"],
 	"comments": ["Comments:", "Excellent"],
@@ -378,7 +378,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Heritage of the Desert"],
+	"title": ["Book Title:", "The Heritage of the Desert"],
 	"author": ["Author:", "John C. Maxwell"],
 	"isbn": ["ISBN:", "0-7852-7431-6"],
 	"comments": ["Comments:", "Interesting"],
@@ -389,7 +389,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Call of the Canyon"],
+	"title": ["Book Title:", "The Call of the Canyon"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9783842427105"],
 	"comments": ["Comments:", "Good"],
@@ -400,7 +400,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Riders of the Purple Sage"],
+	"title": ["Book Title:", "Riders of the Purple Sage"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9780786022625"],
 	"comments": ["Comments:", "Cool"],
@@ -411,7 +411,7 @@
 },
  {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Day of the Beast"],
+	"title": ["Book Title:", "The Day of the Beast"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "2940012184030"],
 	"comments": ["Comments:", "Interesting"],
@@ -422,7 +422,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "To the Last Man"],
+	"title": ["Book Title:", "To the Last Man"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "0-06-015613-9"],
 	"comments": ["Comments:", "Nice"],
@@ -433,7 +433,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Man of the Forest"],
+	"title": ["Book Title:", "The Man of the Forest"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "2940012184009"],
 	"comments": ["Comments:", "Cool"],
@@ -444,7 +444,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Spirit of the Border"],
+	"title": ["Book Title:", "Spirit of the Border"],
 	"author": ["Author:", "Zane Grey."],
 	"isbn": ["ISBN:", "9780786022632"],
 	"comments": ["Comments:", "Nice"],
@@ -455,7 +455,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Rainbow Trail"],
+	"title": ["Book Title:", "The Rainbow Trail"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9780812548181"],
 	"comments": ["Comments:", "Good"],
@@ -466,7 +466,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "New Testament"],
+	"title": ["Book Title:", "New Testament"],
 	"author": ["Author:", "Most Rev. Donald E. Pilarczyk"],
 	"isbn": ["ISBN:", "158516165-9"],
 	"comments": ["Comments:", "Rev. Pilarczyk was the one who did the English translation"],
@@ -477,7 +477,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The U.P. Trail"],
+	"title": ["Book Title:", "The U.P. Trail"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "1-882330-91-9"],
 	"comments": ["Comments:", "Decent"],
@@ -488,7 +488,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Last Trail"],
+	"title": ["Book Title:", "The Last Trail"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781426438714"],
 	"comments": ["Comments:", "Excellent Story"],
@@ -499,7 +499,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Last of the Plainsmen"],
+	"title": ["Book Title:", "The Last of the Plainsmen"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781605979649"],
 	"comments": ["Comments:", "Excellent"],
@@ -510,7 +510,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Border Legion"],
+	"title": ["Book Title:", "The Border Legion"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781444696783"],
 	"comments": ["Comments:", "Entertaining"],
@@ -521,7 +521,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Light of Western Stars"],
+	"title": ["Book Title:", "The Light of Western Stars"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9781438521862"],
 	"comments": ["Comments:", "Good"],
@@ -532,7 +532,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Kitty Takes a Holiday"],
+	"title": ["Book Title:", "Kitty Takes a Holiday"],
 	"author": ["Author:", "Carrie Vaughn"],
 	"isbn": ["ISBN:", "978-0-446-61874-8"],
 	"comments": ["Comments:", "Nice"],
@@ -543,7 +543,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Desert of Wheat"],
+	"title": ["Book Title:", "The Desert of Wheat"],
 	"author": ["Author:", "Zane Grey"],
 	"isbn": ["ISBN:", "9780812578614"],
 	"comments": ["Comments:", "Good"],
@@ -554,7 +554,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Embraced by Darkness"],
+	"title": ["Book Title:", "Embraced by Darkness"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58961-0"],
 	"comments": ["Comments:", "Good"],
@@ -565,7 +565,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Kissing Sin"],
+	"title": ["Book Title:", "Kissing Sin"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58348-0"],
 	"comments": ["Comments:", "Cool"],
@@ -576,7 +576,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Full Moon Rising"],
+	"title": ["Book Title:", "Full Moon Rising"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58845-3"],
 	"comments": ["Comments:", "Good"],
@@ -587,7 +587,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Dangerous Games"],
+	"title": ["Book Title:", "Dangerous Games"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58959-7"],
 	"comments": ["Comments:", "Cool"],
@@ -598,7 +598,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "Tempting Evil"],
+	"title": ["Book Title:", "Tempting Evil"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-58847-7"],
 	"comments": ["Comments:", "Good"],
@@ -609,7 +609,7 @@
 },
 {
 	"genre": ["Genre:", "Western"],
-	"btitle": ["Book Title:", "The Darkest Kiss"],
+	"title": ["Book Title:", "The Darkest Kiss"],
 	"author": ["Author:", "Keri Arthur"],
 	"isbn": ["ISBN:", "978-0-553-59114-9"],
 	"comments": ["Comments:", "Cool"],

@@ -46,30 +46,34 @@ $('#addItem').on('pageinit', function(){
 $('#serial').on('pageinit', function(){
 
 // Serialization of JSON Data
-	$('#jsonBooks').on('click', function() {
-     	$('#theShelf').empty();
-          $('#contain').empty();
+    $('#jsonBooks').on('click', function() {
+        $('#myLibrary').empty();
+          $('#theShelf').empty();
           $.ajax({
-          	url: 'data/json.data',
-               type: 'GET',
+			url: 'data/data.json',
+			type: 'GET',
                dataType: 'json',
                success: function(jdata) {
-               	for (var i=0, j=jdata.item.length; i<j; i++){
-                        var book = jdata.item[i];
-                    		$(""+
-                                	'<p>' + book.genre + '</p>' +
-                                	'<p>' + book.title + '</p>' +
-                              	  '<p>' + book.author + '</p>' +
-                              	  '<p>' + book.isbn + '</p>' +
+                   for (var i=0, j=jdata.item.length; i<j; i++){
+					var book = jdata.item[i];
+                         	$(""+
+                                    '<p>' + book.genre + '</p>' +
+                                    '<p>' + book.title + '</p>' +
+                                  	 '<p>' + book.author + '</p>' +
+                                	 '<p>' + book.isbn + '</p>' +
                                     '<p>' + book.comments + '</p>' +
                                     '<p>' + book.series + '</p>' +
                                     '<p>' + book.seriesname + '</p>' +
                                     '<p>' + book.seriesnum + '</p>' +
                                     '<p>' + book.date + '</p>'
-                           	 ).appendTo('#contain');
-                        		console.log(jdata);
+						).appendTo('#theShelf');
+                              $("#theShelf").listview("refresh");
+                              	console.log(jdata);
                     }
-          	}
+			},
+			error: function(result) { 
+				console.log(result);  
+               }
           });
           return false;
      });
@@ -77,42 +81,43 @@ $('#serial').on('pageinit', function(){
                 	
                 	
 
-/*
+
 // Serialization of XML Data
-	$('#jsonBooks').on('click', function() {
-		$('#theLibrary').empty();
-    		$('#contain').empty();
-        	$.ajax({
-			url: 'data/xml.data',
-            	type: 'GET',
-            	dataType: 'xml',
-            	success: function(xdata) {
-                	$(xdata).find('item').each(function(){
-                		var id = $(this).attr('id');
-                			var title = $(this).find('title').text();
-                			var author = $(this).find('author').text();
-                			var isbn = $(this).find('isbn').text();
-                			var comments = $(this).find('comments').text();
-                			var series = $(this).find('series').text();
-                			var seriesName = $(this).find('seriesName').text();
-                			var seriesNum = $(this).find('seriesNum').text();
-                			var date = $(this).find('date').text();
-                			$('div class="
-                    		).appendTo('#contain');
-                    		console.log(xdata);
-                    		return false;
+    $('#xmlBooks').on('click', function() {
+        $('#myLibrary').empty();
+            $('#contain').empty();
+            $.ajax({
+            url: 'data/data.xml',
+                type: 'GET',
+                dataType: 'xml',
+                success: function(xdata) {
+                    $(xdata).find('item').each(function(){
+                        var id = $(this).attr('id');
+                            var title = $(this).find('title').text();
+                            var author = $(this).find('author').text();
+                            var isbn = $(this).find('isbn').text();
+                            var comments = $(this).find('comments').text();
+                            var series = $(this).find('series').text();
+                            var seriesName = $(this).find('seriesName').text();
+                            var seriesNum = $(this).find('seriesNum').text();
+                            var date = $(this).find('date').text();
+                            $('div class=').appendTo('#contain');
+                            console.log(xdata);
+                            return false;
                 }
-            }
+            );
+                }
         });
     });
-*/
+    
+
 
 // Serialization of YAML Data   -  this may be completely off base - unsure how to use the parser commands to pull yaml data.
-	$('#jsonBooks').on('click', function() {
+	$('#yamlBooks').on('click', function() {
 		$('#theLibrary').empty();
     		$('#contain').empty();
         	$.ajax({
-			url: 'data/yml.data',
+			url: 'data/data.yml',
             	type: 'GET',
             	dataType: 'yaml',
             	success: function(ydata) {
